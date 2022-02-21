@@ -1,6 +1,10 @@
 '''
 Created on Jan 22, 2022
 
+#Learning Python
+#Created while following pygame youtube video by Tech With Tim  
+#Code not working -> finished on main.py
+
 @author: gregt
 '''
 import pygame
