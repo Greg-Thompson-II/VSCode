@@ -1,3 +1,8 @@
+/*created using general variables
+created while following youtube video by 
+Working on fixing bug in code where CPU or user can overwrite the others move
+*/
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
