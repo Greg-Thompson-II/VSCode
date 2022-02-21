@@ -1,0 +1,183 @@
+<!--Basic Quiz website design-->
+
+<html>
+    <head>
+       <title>PHP Quiz</title>
+    </head>
+    
+    <body>
+       <h1>CMPS401 PHP Quiz</h1>
+       <div id="page-wrap">
+       <form action="TQuiz.php" method="post">
+       First Name: <input type="text" name="First Name"> Last Name:  <input type="text" name="Last Name"><br>       
+    
+    
+    
+          <h3>1. What does PHP stand for?</h3>
+          <div>
+             <input type="radio" name="Q1Answers" id="Q1Answers-A" value="A" />
+             <label for="Q1Answers-A">a) PHP: Hypertext Preprocessor </label>
+          </div>
+          <div>
+             <input type="radio" name="Q1Answers" id="Q1Answers-B" value="B" />
+             <label for="Q1Answers-B">b) Personal Hypertext Processor </label>
+          </div>
+          <div>
+             <input type="radio" name="Q1Answers" id="Q1Answers-C" value="C" />
+             <label for="Q1Answers-C">c) Private Home Page </label>
+          </div>
+          <div>
+             <input type="radio" name="Q1Answers" id="Q1Answers-D" value="D" />
+             <label for="Q1Answers-D">d) Personal Home Page </label>
+          </div>
+    
+       
+    
+          <h3>2. How do you write ''Hello World'' in PHP?</h3>
+          <div>
+             <input type="radio" name="Q2Answers" id="Q2Answers-A" value="A" />
+             <label for="Q2Answers-A">a) ''Hello World''; </label>
+          </div>
+          <div>
+             <input type="radio" name="Q2Answers" id="Q2Answers-B" value="B" />
+             <label for="Q2Answers-B">b) Document.Write(''Hello World''); </label>
+          </div>
+          <div>
+             <input type="radio" name="Q2Answers" id="Q2Answers-C" value="C" />
+             <label for="Q2Answers-C">c) echo ''Hello World''; </label>
+          </div>
+       
+    
+    
+          <h3>3. All variables in PHP start with what symbol?</h3>
+          <div>
+             <input type="radio" name="Q3Answers" id="Q3Answers-A" value="A" />
+             <label for="Q3Answers-A">a) $ </label>
+          </div>
+          <div>
+             <input type="radio" name="Q3Answers" id="Q3Answers-B" value="B" />
+             <label for="Q3Answers-B">b) @ </label>
+          </div>
+          <div>
+             <input type="radio" name="Q3Answers" id="Q3Answers-C" value="C" />
+             <label for="Q3Answers-C">c) % </label>
+          </div>
+          <div>
+             <input type="radio" name="Q3Answers" id="Q3Answers-D" value="D" />
+             <label for="Q3Answers-D">d) & </label>
+          </div> 
+    
+    
+    
+          <h3>4. What is the correct way to add 1 to the $count variable?</h3>
+          <div>
+             <input type="radio" name="Q4Answers" id="Q4Answers-A" value="A" />
+             <label for="Q4Answers-A">a) $count++; </label>
+          </div>
+          <div>
+             <input type="radio" name="Q4Answers" id="Q4Answers-B" value="B" />
+             <label for="Q4Answers-B">b) $count =+ 1 </label>
+          </div>
+          <div>
+             <input type="radio" name="Q4Answers" id="Q4Answers-C" value="C" />
+             <label for="Q4Answers-C">c) ++count </label>
+          </div>
+          <div>
+             <input type="radio" name="Q4Answers" id="Q4Answers-D" value="D" />
+             <label for="Q4Answers-D">d) count++; </label>
+          </div>
+    
+    
+    
+          <h3>5. How do you get information from a form that is submitted using the ''post'' method?</h3>
+          <div>
+             <input type="radio" name="Q5Answers" id="Q5Answers-A" value="A" />
+             <label for="Q5Answers-A">a) Request.Form </label>
+          </div>
+          <div>
+             <input type="radio" name="Q5Answers" id="Q5Answers-B" value="B" />
+             <label for="Q5Answers-B">b) $_GET[]; </label>
+          </div>
+          <div>
+             <input type="radio" name="Q5Answers" id="Q5Answers-C" value="C" />
+             <label for="Q5Answers-C">c) $_POST[]; </label>
+          </div>
+          <div>
+             <input type="radio" name="Q5Answers" id="Q5Answers-D" value="D" />
+             <label for="Q5Answers-D">d) Request.QueryString; </label>
+          </div>
+    
+    
+    
+          <h3>6. When using the post method, variables are displayed in the URL: </h3>
+          <div>
+             <input type="radio" name="Q6Answers" id="Q6Answers-A" value="A" />
+             <label for="Q6Answers-A">a) True </label>
+          </div>
+          <div>
+             <input type="radio" name="Q6Answers" id="Q6Answers-B" value="B" />
+             <label for="Q6Answers-B">b) False </label>
+          </div>
+    
+    
+    
+          <h3>7. In PHP, you can use both single quotes (' ') and double quotes ('' '') for stings: </h3>
+          <div>
+             <input type="radio" name="Q7Answers" id="Q7Answers-A" value="A" />
+             <label for="Q1Answers-A">a) True </label>
+          </div>
+          <div>
+             <input type="radio" name="Q7Answers" id="Q7Answers-B" value="B" />
+             <label for="Q7Answers-B">b) False </label>
+          </div>
+    
+    
+    
+          <h3>8. What is the correct way to create a function in PHP?</h3>
+          <div>
+             <input type="radio" name="Q8Answers" id="Q8Answers-A" value="A" />
+             <label for="Q8Answers-A">a) create myFunction() </label>
+          </div>
+          <div>
+             <input type="radio" name="Q8Answers" id="Q8Answers-B" value="B" />
+             <label for="Q8Answers-B">b) new_function myFunction() </label>
+          </div>
+          <div>
+             <input type="radio" name="Q8Answers" id="Q8Answers-C" value="C" />
+             <label for="Q8Answers-C">c) function myFunction </label>
+          </div>
+    
+    
+    
+          <h3>9. All variables in PHP start with what symbol?</h3>
+          <div>
+             <input type="radio" name="Q9Answers" id="Q9Answers-A" value="A" />
+             <label for="Q9Answers-A">a) mysql_connect(''localhost''); </label>
+          </div>
+          <div>
+             <input type="radio" name="Q9Answers" id="Q9Answers-B" value="B" />
+             <label for="Q9Answers-B">b) mysql_query(''localhost''); </label>
+          </div>
+          <div>
+             <input type="radio" name="Q9Answers" id="Q9Answers-C" value="C" />
+             <label for="Q9Answers-C">c) connect_mysql(''localhost''); </label>
+          </div>
+          <div>
+             <input type="radio" name="Q9Answers" id="Q9Answers-D" value="D" />
+             <label for="Q9Answers-D">d) mysql_open(''localhost''); </label>
+          </div> 
+    
+    
+    
+          <h3>10. The following HTML code will direct form information and control to what file?</h3>
+             form action=''P4.php'' method=''post''</br></br>
+             <input type="text" name="Q10Answers" id="Q10Answers-FIB" /></br>
+             (Note: Answer is case-sensitive)</br></br></br>
+          
+    
+          <input type="submit" value="Submit" class="submitbtn" />
+       </form>
+       </div>
+    </body>
+    </html>
+    
