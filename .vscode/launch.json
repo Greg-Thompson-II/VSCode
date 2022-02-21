@@ -1,0 +1,42 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch testIncrement",
+      "request": "launch",
+      "mainClass": "testIncrement",
+      "projectName": "VSCode_b9da50c5"
+    },
+    {
+      "type": "java",
+      "name": "Launch TicTacToe",
+      "request": "launch",
+      "mainClass": "TicTacToe",
+      "projectName": "VSCode_b9da50c5"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [
+        ""
+      ],
+      "stopAtEntry": false,
+      "cwd": "c:/Users/gregt/OneDrive/Documents/VSCode",
+      "environment": [],
+      "program": "c:/Users/gregt/OneDrive/Documents/VSCode/build/Debug/outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
+      "externalConsole": false,
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
