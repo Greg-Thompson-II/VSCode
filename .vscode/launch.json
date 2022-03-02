@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Fibonacci",
+      "request": "launch",
+      "mainClass": "Fibonacci",
+      "projectName": "VSCode_b9da50c5"
+    },
+    {
+      "type": "java",
       "name": "Launch testIncrement",
       "request": "launch",
       "mainClass": "testIncrement",
