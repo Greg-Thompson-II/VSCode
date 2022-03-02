@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch delayPrint",
+      "request": "launch",
+      "mainClass": "delayPrint",
+      "projectName": "VSCode_b9da50c5"
+    },
+    {
+      "type": "java",
       "name": "Launch PostfixDriver",
       "request": "launch",
       "mainClass": "PostfixDriver",
